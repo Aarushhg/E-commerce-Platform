@@ -56,7 +56,7 @@ Create a file named .env in the backend folder and add the following variables, 
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
-
+```
 ## Run the Server:
 Start the backend server. It will run on http://localhost:5000.
 
@@ -116,8 +116,7 @@ The following features are planned for future development:
 ## 👨‍💻 Author
 
 **Name:** Aarush Gupta  
-**GitHub:** [@yourusername](https://github.com/yourusername)  
-**Email:** your.email@example.com  
+**Linkedin:** https://www.linkedin.com/in/aarushgupta6904/  
 
 ---
 
