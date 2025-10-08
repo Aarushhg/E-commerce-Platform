@@ -49,14 +49,15 @@ Navigate to the backend directory, install dependencies, and configure environme
 ```bash
 cd backend
 npm install
-Configuration:
+```
+## Configuration:
 Create a file named .env in the backend folder and add the following variables, replacing the placeholders with your actual values:
 
-```ini
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
-Run the Server:
+
+## Run the Server:
 Start the backend server. It will run on http://localhost:5000.
 
 ```bash
