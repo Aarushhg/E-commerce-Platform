@@ -1,0 +1,113 @@
+/* Order Container */
+.order-container {
+  padding: 30px;
+  text-align: center;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Title */
+.order-container h1 {
+  font-size: 2.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+/* Order List */
+.order-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Order Card */
+.order-card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 700px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on order card */
+.order-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Order Card Title */
+.order-card h3 {
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* List Items */
+.order-card ul {
+  list-style-type: none;
+  padding: 0;
+  color: #555;
+}
+
+.order-card li {
+  font-size: 1rem;
+  margin: 8px 0;
+  text-align: left;
+  font-weight: 500;
+}
+
+/* Order Details Text */
+.order-card p {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  color: #666;
+}
+
+/* Continue Shopping Button */
+.continue-shopping-btn { /* Green */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 30px;
+  height: 50;
+  width: 200px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect on Continue Shopping Button */
+.continue-shopping-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .order-container {
+    padding: 15px;
+  }
+  
+  .order-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .order-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .continue-shopping-btn {
+    width: 100%;
+  }
+}

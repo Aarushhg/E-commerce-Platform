@@ -1,0 +1,101 @@
+/* Checkout container styling */
+.checkout-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for checkout container (slight shadow increase) */
+.checkout-container:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Section to display the items in the cart */
+.checkout-items {
+    margin-bottom: 30px;
+}
+
+/* Individual checkout item display */
+.checkout-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Styling for the checkout form inputs and text areas */
+.checkout-form input,
+.checkout-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus effect for inputs */
+.checkout-form input:focus,
+.checkout-form textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+/* Label styling */
+.checkout-form label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Button for the checkout action (Complete Purchase) */
+.checkout-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2563eb; /* Blue for action */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for the checkout button */
+.checkout-button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
+
+/* Disabled state for the checkout button */
+.checkout-button:disabled {
+    background-color: #d1d5db;
+    cursor: not-allowed;
+}
+
+/* Additional styling for "Order Summary" text */
+.order-summary {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styling for the total price at the bottom */
+.checkout-total {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2563eb;
+    margin-top: 20px;
+    text-align: right;
+}

@@ -1,0 +1,37 @@
+.product-details-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-image img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.product-info h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.product-info h2 {
+  font-size: 1.5rem;
+  color: #ff5500;
+  margin-bottom: 1rem;
+}
+
+.product-info p {
+  font-size: 1rem;
+  color: #555;
+}

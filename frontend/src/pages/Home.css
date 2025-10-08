@@ -1,0 +1,227 @@
+/* home.css */
+.home {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #6dd5ed, #2193b0); /* Soft blue gradient */
+  font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+  color: #333;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+/* Optional to reset body if it's overriding */
+body {
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+/* Hero Banner */
+.hero {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0); /* Light to dark blue gradient */
+  padding: 100px 20px;
+  color: #fff;
+  text-align: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.hero h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+}
+
+.shop-now { /* Soft pinkish-red for attention */
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-now:hover { /* Darker pinkish-red for hover */
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Shop by Category */
+.categories {
+  padding: 80px 20px;
+  background-color: #f7f7f7; /* Light gray background */
+  text-align: center;
+}
+
+.categories h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.category {
+  flex: 1 1 240px;
+  max-width: 260px;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #444;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.category:hover {
+  transform: translateY(-8px);
+  background-color: #f0f4f8; /* Slightly darker gray-blue */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.category img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.category h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Featured Products */
+/* Featured Products Section */
+.featured-products {
+  padding: 80px 20px;
+  background-color: #ffffff; /* Clean white background */
+  color: #333;
+}
+
+.featured-products h2 {
+  margin-bottom: 30px; /* Reduced gap between title and products */
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); /* More flexible grid layout */
+  gap: 25px; /* Reduced gap between cards */
+  justify-items: center;
+  margin-top: 30px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 300px;
+  height: 400px; /* Set a fixed height for the product cards */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px); /* Slightly stronger hover effect */
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+  background-color: #f9fafc;
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px; /* Adjusted height for consistency */
+  object-fit: contain; /* Ensures the image fits well without stretching */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.product-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.product-card p {
+  color: #777;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.product-card button {
+  background-color: #FF477E; /* Soft pinkish-red for attention */
+  color: white;
+  border: none;
+  padding: 14px 26px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: auto; /* Ensures button stays at the bottom of the card */
+}
+
+.product-card button:hover {
+  background-color: #FF1A5B; /* Darker pinkish-red for hover */
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-card button:active {
+  transform: scale(1);
+  box-shadow: none;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer a {
+  color: #ff477e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  color: #ff1a5b;
+}

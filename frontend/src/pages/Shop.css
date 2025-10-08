@@ -1,0 +1,53 @@
+/* Add to Cart Button Styling */
+.product-card button {
+    background-color: #2563eb; /* Coral color for the button */
+    color: white;
+    border: none;
+    padding: 12px 18px;  /* Slightly larger padding for a more noticeable button */
+    cursor: pointer;
+    border-radius: 6px;  /* Slightly more rounded corners */
+    font-size: 16px;
+    font-weight: 600;  /* Make the text bolder for better readability */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    outline: none; /* Remove focus outline */
+}
+
+/* Hover effect for the Add to Cart button */
+.product-card button:hover {
+    background-color: #1d4ed8;  /* Tomato color on hover */
+    transform: scale(1.1);  /* Slightly enlarge the button */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);  /* Add subtle shadow for better emphasis */
+}
+
+/* Focus state for the Add to Cart button */
+.product-card button:focus {
+    outline: none;  /* Remove outline when focused */
+    box-shadow: 0px 0px 0px 3px rgba(255, 99, 71, 0.4);  /* Add focus ring with a soft red hue */
+}
+
+/* Orders Button Styling */
+.orders-button {
+    background-color: #4CAF50;  /* Green button for orders */
+    color: white;
+    padding: 12px 24px;  /* Larger padding for better click area */
+    border: none;
+    border-radius: 6px;  /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;  /* Bold text for clarity */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;  /* Space below the button */
+}
+
+/* Hover effect for the Orders button */
+.orders-button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+    transform: scale(1.05);  /* Slight enlargement on hover */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);  /* Add subtle shadow */
+}
+
+/* Focus state for the Orders button */
+.orders-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 3px rgba(76, 175, 80, 0.4);  /* Soft green focus ring */
+}
