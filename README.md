@@ -52,7 +52,7 @@ npm install
 ```
 ## Configuration:
 Create a file named .env in the backend folder and add the following variables, replacing the placeholders with your actual values:
-
+```bash
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
@@ -70,13 +70,15 @@ Navigate to the frontend directory, install dependencies, and start the client a
 ```bash
 cd ../frontend
 npm install
-Run the Client:
+```
+## Run the Client:
 Start the React development server. It will typically open in your browser at http://localhost:3000.
 
 ```bash
 npm start
 You should now have both the backend and frontend running and connected!
 ```
+
 ## 📂 Folder Structure
 The project follows a standard structure for full-stack MERN applications:
 
