@@ -78,28 +78,6 @@ Start the React development server. It will typically open in your browser at ht
 npm start
 You should now have both the backend and frontend running and connected!
 ```
-
-## 📂 Folder Structure
-The project follows a standard structure for full-stack MERN applications:
-
-ShopIX/
-│
-├── backend/                  # Node.js/Express Server
-│   ├── models/             # Mongoose schemas (e.g., User, Product, Order)
-│   ├── routes/             # API endpoints (e.g., auth, products, cart)
-│   ├── server.js           # Main server entry point
-│   └── .env                # Environment variables
-│
-├── frontend/                 # React Client Application
-│   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/          # Top-level views (e.g., Home, ProductDetail, Cart)
-│   │   ├── context/        # Global state management
-│   │   ├── App.js          # Router setup
-│   │   └── index.js        # Root component
-│
-└── README.md
-
 ---
 
 ## 💡 Future Enhancements
